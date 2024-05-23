@@ -5,4 +5,4 @@
 
 🔴Live page : https://uttomkumar859.github.io/Todo_js/
 
-🔴live page: https://664fa5aa97fbc26e9b6b0b50--vocal-blancmange-936004.netlify.app/
+🔴live page: https://simpletodolist01.netlify.app/
