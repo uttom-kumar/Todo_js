@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+.todo_section{
+    width: 500px;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px 20px 50px 20px;
+}
+.todo_section .title h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.todo_section .todo_inputs form{
+    display: flex;
+}
+.todo_section .todo_inputs form input{
+    width: 70%;
+    border: none;
+    outline: 2px solid transparent;
+    padding: 5px 10px;
+    transition: 0.5s ease;
+}
+.todo_section .todo_inputs form input:focus{
+    outline: 2px solid red;
+}
+.todo_section .todo_inputs form button{
+    color: #fff;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 0;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: green;
+}
+.todo_section .genarate_task{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.todo_section .genarate_task ul{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+.todo_section .genarate_task ul .btnD{
+    color: #fff;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+}
