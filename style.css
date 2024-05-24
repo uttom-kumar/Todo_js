@@ -8,7 +8,7 @@
     font-family: "Poppins", sans-serif;
 }
 .todo_section{
-    width: 500px;
+    width: 50%;
     height: auto;
     margin: 40px auto;
     border-radius: 10px;
@@ -66,4 +66,18 @@
     border-radius: 50%;
     text-align: center;
     background-color: red;
+}
+@media (max-width:768px) {
+    .todo_section{
+        width: 90%;
+    }
+}
+@media (max-width:400px) {
+    .todo_section .todo_inputs form input {
+        width: 70%;
+        padding: 0 5px;
+    }
+    .todo_section .todo_inputs form button{
+        font-size: 9px;
+    }
 }
